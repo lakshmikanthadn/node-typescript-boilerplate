@@ -1,0 +1,26 @@
+sudo: false
+language: node_js
+node_js:
+  - '8'
+cache:
+  directories:
+    - ~/.npm
+    - node_modules
+notifications:
+  email: false
+install:
+  - npm install
+stages: 
+  - test
+  - build
+jobs:
+  include:
+    - stage: test
+      name: check lint and test
+      script:
+        - commitlint-travis
+        - npm run lint
+        - npm run test
+    - stage: build
+      name: build the app
+      script: npm run build
