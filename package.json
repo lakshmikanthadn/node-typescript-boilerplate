@@ -8,7 +8,8 @@
     "lint": "tslint ./src/**",
     "test": "echo \"WARN: no test specified\"",
     "prebuild": "npm run cleanbuild",
-    "cleanbuild": "rimraf ./bin ./dist ./lib ./logs ./schema.org"
+    "cleanbuild": "rimraf ./bin ./dist ./lib ./logs",
+    "env:dev": "cross-env NODE_ENV=dev"
   },
   "author": "lakshmikanthadn",
   "license": "MIT",
@@ -21,6 +22,7 @@
     "@commitlint/travis-cli": "^7.1.2",
     "@types/lodash": "^4.14.117",
     "@types/node": "^10.12.2",
+    "cross-env": "^5.2.0",
     "husky": "^1.1.0",
     "rimraf": "^2.6.2",
     "tslint": "^5.11.0",
