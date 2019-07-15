@@ -17,9 +17,9 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.1.2",
-    "@commitlint/config-conventional": "^7.1.2",
-    "@commitlint/travis-cli": "^7.1.2",
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "@commitlint/travis-cli": "^8.1.0",
     "@types/lodash": "^4.14.117",
     "@types/node": "^11.9.0",
     "cross-env": "^5.2.0",
