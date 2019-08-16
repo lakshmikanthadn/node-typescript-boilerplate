@@ -20,7 +20,7 @@
     "@commitlint/cli": "^7.1.2",
     "@commitlint/config-conventional": "^7.1.2",
     "@commitlint/travis-cli": "^7.1.2",
-    "@types/lodash": "^4.14.117",
+    "@types/lodash": "^4.14.137",
     "@types/node": "^11.9.0",
     "cross-env": "^5.2.0",
     "husky": "^1.1.0",
