@@ -22,7 +22,7 @@
     "@commitlint/travis-cli": "^7.1.2",
     "@types/lodash": "^4.14.117",
     "@types/node": "^11.9.0",
-    "cross-env": "^5.2.0",
+    "cross-env": "^6.0.2",
     "husky": "^1.1.0",
     "rimraf": "^2.6.2",
     "tslint": "^5.11.0",
