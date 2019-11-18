@@ -23,7 +23,7 @@
     "@types/lodash": "^4.14.117",
     "@types/node": "^11.9.0",
     "cross-env": "^5.2.0",
-    "husky": "^1.1.0",
+    "husky": "^3.1.0",
     "rimraf": "^2.6.2",
     "tslint": "^5.11.0",
     "typescript": "^3.1.1"
